@@ -1,19 +1,39 @@
 {
-    "vote":[
-        {
-        "title": "投票1",
-        "id": 1,
-        "info": "这是投票1的简介\n这是投票1的简介\n这是投票1的简介"
-        },
-        {
-        "title": "投票2",
-        "id": 2,
-        "info": "这是投票2的简介\n这是投票2的简介\n这是投票2的简介"
-        },
-        {
-        "title": "投票3",
-        "id": 3,
-        "info": "这是投票3的简介\n这是投票3的简介\n这是投票3的简介"
-        }
-    ]
+	"vote": [{
+			"id": 1,
+			"VoteTitle": "投票1",
+			"VoteInfo": "这是投票1的简介",
+			"VoteStatus": false,
+			"Start": "2019-06-01",
+			"End": "2019-07-10",
+			"Visible": true
+		},
+		{
+			"id": 2,
+			"VoteTitle": "投票2",
+			"VoteInfo": "这是投票2的简介",
+			"VoteStatus": true,
+			"Start": "2019-07-01",
+			"End": "2019-07-30",
+			"Visible": true
+		},
+		{
+			"id": 3,
+			"VoteTitle": "投票3",
+			"VoteInfo": "这是投票3的简介",
+			"VoteStatus": false,
+			"Start": "2019-05-01",
+			"End": "2019-05-10",
+			"Visible": false
+		},
+		{
+			"id": 4,
+			"VoteTitle": "投票4",
+			"VoteInfo": "这是投票4的简介",
+			"VoteStatus": true,
+			"Start": "2019-07-20",
+			"End": "2019-08-10",
+			"Visible": true
+		}
+	]
 }
